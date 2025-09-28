@@ -1,0 +1,2 @@
+admin:password	correcto_substring_encontrado	evidence/admin___password.html	evidence/admin___password.headers
+1337:charley	correcto_substring_encontrado	evidence/1337___charley.html	evidence/1337___charley.headers

