@@ -1,23 +1,3 @@
-#!/usr/bin/env python3
-"""
-brute_force_requests.py
-
-Brute-force script for DVWA /vulnerabilities/brute using requests.
-- Assumes the form sends credentials via GET in the query string.
-- Uses a requests.Session to reuse cookies.
-- Detection uses either a failure string (if present) or response size threshold.
-
-Usage:
-  1) Populate users.txt and passwords.txt (one per line).
-  2) Edit COOKIE_SESSION and HOST/PORT if needed.
-  3) python3 brute_force_requests.py
-
-Outputs:
-  - valid_pairs.txt (found valid user:pass)
-  - evidence/<user>___<pass>.html  (body)
-  - evidence/<user>___<pass>.headers (response headers)
-"""
-
 import requests
 import os
 import time
